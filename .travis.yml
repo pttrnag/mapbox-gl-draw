@@ -19,7 +19,6 @@ deploy:
   provider: npm
   email: adam@pattern.ag
   skip_cleanup: true
-  local_dir: dist
   api_key:
     secure: maZPT8xX7GjJ9d5FDkzTL/gjbMFvSm4bvuRUsHFgvuop3EjEi0m2dfQliHrnZ+InXBUpWs3AKYP4gcsgziumaMRtjpYTy9FZrs/Win9kCiik/t0blsfwMj/vp1Lw9/SOSlezzPYEBBc1S1EaFzwdCJX9Xy2mhLzY4+7QEpjUZW4cVcea6TWZpCtI5bNr2dsrCXqGB+rcsew++2pXDgh41Pm8cJaLfPWLSsUy2RdYu/lSuHqWOp/kWlpsJraxtA7QcvunmFfeZ44oYYIUNFIrYiHb3iv5Jhuotw4s6lCw9ZrIm6s+qvsYkqOHQUy9ZYdCG2D82BUsMlFGyEq3vMA2lv0vIHEC5jxlaK+udu+Q+zJ7LjO/B64zpWBzfyZ2pAdSjqSCjae13R5bg52GokOLyTdeHYQAVkFyYE+y2f7ckK1RiLRVeoIB++jkwnapuoU//S1lZHy9Ugy4HjIsn8F9E/mYpoRo1wneyKy82w/0W4L8qLg2Le8oMZFupUATkX7MLMmsJmGJlmgMoDyOL5pkL10JKv2urGZhaRICAVxD/0LsrdJAoCLxNMyKUDZG6CVAl3W+CFrttGoAh2cOJcX0rjUdm+A25+XMULzo8G+3wTnZwYvdCdumQ7p0I5KlAtnowN/LtNvBeFKLbZGaj4LQQqFTrwSonnVrIyhHozqg0TQ=
   on:
