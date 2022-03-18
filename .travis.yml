@@ -6,11 +6,11 @@ cache:
   - node_modules
 branches:
   only:
-    - master
+    - main
 script:
 - yarn test
 true:
-  branch: master
+  branch: main
 deploy:
   edge: true
   provider: npm
