@@ -37,7 +37,7 @@ DrawPoint.onTap = DrawPoint.onClick = function(state, e) {
   this.map.fire(Constants.events.CREATE, {
     features: [state.point.toGeoJSON()]
   });
-  this.changeMode(Constants.modes.SIMPLE_SELECT, { featureIds: [state.point.id] });
+  this.changeMode(Constants.modes.DRAW_POINT, { featureIds: [state.point.id] });
 };
 
 DrawPoint.onStop = function(state) {
