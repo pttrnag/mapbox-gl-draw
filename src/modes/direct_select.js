@@ -69,7 +69,9 @@ DirectSelect.onMidpoint = function(state, e) {
     this.startDragging(state, e);
     const about = e.featureTarget.properties;
     state.feature.addCoordinate(about.coord_path, about.lng, about.lat);
-    this.fireUpdate();
+    // Remove fireUpdate so grabbing a midpoint does not stop you from dragging it.
+    // Commented out so we know it exists here in case of issues later on.
+    // this.fireUpdate();
     state.selectedCoordPaths = [about.coord_path];
   }
 };
